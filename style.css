@@ -38,7 +38,7 @@ section h2 {
 
 header {
   padding: 30px 4%;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 2px solid #f0f0f0;
   margin-bottom: 40px;
 }
 
@@ -59,7 +59,7 @@ header nav.menu ul {
 }
 
 header a {
-  color: #474747;
+  color: #033ce8d8;
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
@@ -68,7 +68,7 @@ header a {
 }
 
 header a:hover {
-  color: #000000;
+  color: #010192;
   transform: scale(1.05);
 }
 
