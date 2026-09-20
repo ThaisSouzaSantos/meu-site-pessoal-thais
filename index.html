@@ -11,109 +11,147 @@
 </html>
 -->
 
-
-
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
 
     <title>Portfólio - Thais</title>
+  </head>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+  <body>
     <!-- Cabeçalho -->
     <header>
-        <h1>Olá, eu sou a Thais!</h1>
-        <p>Estudante de Ciência da Computação</p>
-
-        <nav>
-            <a href="#sobre">Sobre mim</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#contato">Contato</a>
-        </nav>
+      <div class="interface">
+        <nav class="menu">
+        <ul>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      </div><!--INTERFACE-->
     </header>
 
+    <main>
+      <!--===== TOPO DO SITE =====-->
+      <section class="topo" id="inicio">
+        <div class="interface">
+          <div class="flex">
+            <div class="txt-topo">
+              <h1>Olá, eu sou a Thais!</h1>
+              <p>Estudante de Ciência da Computação</p>
+            </div>
+            <!--TXT-TOPO-->
+          </div>
+          <!--FLEX-->
+        </div>
+        <!--INTERFACE-->
+      </section>
+      <!--===== FIM TOPO DO SITE =====-->
 
-    <!-- Sobre mim -->
-    <section id="sobre">
-        <h2>Sobre mim</h2>
+      <!-- Sobre mim -->
+      <section class="sobre" id="sobre">
+        <div class="interface">
+          <div class="flex">
+            <div class="txt-sobre">
+              <h2>Sobre mim</h2>
 
-        <p>
-            Olá! Meu nome é Thais e sou estudante de Ciência da Computação.
-            Estou aprendendo programação e desenvolvimento de sistemas.
-        </p>
+              <p>
+                Olá! Meu nome é Thais e sou estudante de Ciência da Computação.
+                Estou aprendendo programação e desenvolvimento de sistemas.
+              </p>
 
-        <p>
-            Este é o meu portfólio, onde pretendo apresentar um pouco
-            dos meus estudos, projetos e conhecimentos.
-        </p>
-    </section>
+              <p>
+                Este é o meu portfólio, onde pretendo apresentar um pouco dos
+                meus estudos, projetos e conhecimentos.
+              </p>
+            </div>
+            <!--TXT-SOBRE-->
+          </div>
+          <!--FLEX-->
+        </div>
+        <!--INTERFACE-->
+      </section>
 
+      <!-- Projetos -->
+      <section class="projetos" id="projetos">
+        <div class="interface">
+          <h2>Projetos</h2>
 
-    <!-- Projetos -->
-    <section id="projetos">
-        <h2>Projetos</h2>
+          <div class="flex">
+            <article>
+              <h3>Projeto 1</h3>
+              <p>Descrição do meu primeiro projeto.</p>
+              <a href="#">Ver projeto</a>
+            </article>
 
-        <article>
-            <h3>Projeto 1</h3>
-            <p>Descrição do meu primeiro projeto.</p>
-            <a href="#">Ver projeto</a>
-        </article>
+            <article>
+              <h3>Projeto 2</h3>
+              <p>Descrição do meu segundo projeto.</p>
+              <a href="#">Ver projeto</a>
+            </article>
+          </div>
+          <!--FLEX-->
+        </div>
+        <!--INTERFACE-->
+      </section>
 
-        <article>
-            <h3>Projeto 2</h3>
-            <p>Descrição do meu segundo projeto.</p>
-            <a href="#">Ver projeto</a>
-        </article>
+      <!-- Habilidades -->
+      <section class="habilidades" id="habilidades">
+        <div class="interface">
+          <h2>Habilidades</h2>
+          <div class="flex">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>C</li>
+              <li>Git e GitHub</li>
+            </ul>
+          </div>
+          <!--FLEX-->
+        </div>
+        <!--INTERFACE-->
+      </section>
 
-    </section>
+      <!-- Contato -->
+      <section class="contato" id="contato">
+        <div class="interface">
+          <h2>Contato</h2>
 
-
-    <!-- Habilidades -->
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>C</li>
-            <li>Git e GitHub</li>
-        </ul>
-    </section>
-
-
-    <!-- Contato -->
-    <section id="contato">
-        <h2>Contato</h2>
-
-        <p>
+          <p>
             GitHub:
-            <a href="https://github.com/" target="_blank">
-                Meu GitHub
-            </a>
-        </p>
+            <a href="https://github.com/" target="_blank"> Meu GitHub </a>
+          </p>
 
-        <p>
+          <p>
             Email:
-            <a href="mailto:seuemail@email.com">
-                seuemail@email.com
-            </a>
-        </p>
-    </section>
-
+            <a href="mailto:seuemail@email.com"> seuemail@email.com </a>
+          </p>
+        </div>
+        <!--INTERFACE-->
+      </section>
+    </main>
 
     <!-- Rodapé -->
     <footer>
-        <p>© 2026 Thais - Meu Portfólio</p>
+      <div class="interface">
+        <div class="line-footer">
+          <div class="flex">
+            <p>© 2026 Thais - Meu Portfólio</p>
+          </div>
+          <!--FLEX-->
+        </div>
+        <!--LINE-FOOTER-->
+      </div>
+      <!--INTERFACE-->
     </footer>
-
-</body>
-
+  </body>
 </html>
