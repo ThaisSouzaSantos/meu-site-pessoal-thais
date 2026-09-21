@@ -6,16 +6,19 @@
   box-sizing: border-box;
 }
 
+/*=== isso altera: a cor do fundo e a cor do texto do site ===*/
 body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
   height: 100vh;
 }
 
+/*=== isso altera: a largura máxima do site e centraliza o conteúdo ===*/
 .interface {
   max-width: 1000px;
   margin: 0 auto;
 }
+
 
 .flex {
   display: flex;
@@ -179,8 +182,8 @@ footer .line-footer {
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #9c9cf8;
-    color: #333;
+    background-color: #f5f5f8;
+    color: #000000;
     text-align: center;
     padding-top: 50px;      
 }
